@@ -47,7 +47,6 @@ namespace Fajlovi
             else
             {
                 string stack1_pop = stack1.Pop();
-                string pocetni_path = Path.GetDirectoryName(stack1_pop);
                 string ime_fajla = Path.GetFileName(stack1_pop);
                 string odredisni_path = folder2_path;
                 string odredisno_puno_ime_fajla = Path.Combine(odredisni_path, ime_fajla);
@@ -80,7 +79,6 @@ namespace Fajlovi
                     stack1.Clear();
                     foreach (string filename in ofd.FileNames)
                     {
-                        string pocetni_path = Path.GetDirectoryName(filename);
                         string ime_fajla = Path.GetFileName(filename);
                         string odredisni_path = folder1_path;
                         string odredisno_puno_ime_fajla = Path.Combine(odredisni_path, ime_fajla);
@@ -102,7 +100,6 @@ namespace Fajlovi
                 {
                     foreach (string filename in ofd.FileNames)
                     {
-                        string pocetni_path = Path.GetDirectoryName(filename);
                         string ime_fajla = Path.GetFileName(filename);
                         string odredisni_path = folder1_path;
                         string odredisno_puno_ime_fajla = Path.Combine(odredisni_path, ime_fajla);
