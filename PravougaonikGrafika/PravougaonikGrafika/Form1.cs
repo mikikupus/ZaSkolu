@@ -25,10 +25,9 @@ namespace PravougaonikGrafika
         int x = 300;
         int y = 30;
         int height = 50;
-        int width = 100;
         bool nacrtano = false;
         int j = 4;
-        Color[] boje = new Color[] { Color.White, Color.Red, Color.Blue, Color.Green, Color.Yellow, Color.Black };
+        Color[] boje = new Color[] { Color.White, Color.Yellow, Color.Green, Color.Blue, Color.Red, Color.Black };
         public Form1()
         {
             InitializeComponent();
